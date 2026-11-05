@@ -56,9 +56,25 @@ I then used **`RANK()`** for revenue rankings and **`LAG()`** to compare monthly
 
 ### 🖥️ SQL query results in DBeaver
 
-![DBeaver category revenue results](screenshots/02_dbeaver_category_revenue_results.png)
+<table>
+  <tr>
+    <th>📊 Category Revenue Results</th>
+    <th>✅ Refund Integrity Checks</th>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="screenshots/Category%20Revenue%20Results.png"
+           alt="Category Revenue Results"
+           width="450">
+    </td>
+    <td align="center" width="50%">
+      <img src="screenshots/Refund%20Integrity%20Checks.png"
+           alt="Refund Integrity Checks"
+           width="450">
+    </td>
+  </tr>
+</table>
 
-![DBeaver refund integrity checks](screenshots/03_dbeaver_refund_integrity_results.png)
 
 ## 📊 4. Business performance and findings
 
