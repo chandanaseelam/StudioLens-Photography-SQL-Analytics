@@ -1,0 +1,35 @@
+month,completed_bookings,revenue_inr,source_note
+2024-01-01,0,0.00,Filled zero from V02 calendar; not present in E01 export
+2024-02-01,238,7458500.00,Observed in E01 source export
+2024-03-01,386,12172700.00,Observed in E01 source export
+2024-04-01,389,12261000.00,Observed in E01 source export
+2024-05-01,389,12260400.00,Observed in E01 source export
+2024-06-01,370,11634500.00,Observed in E01 source export
+2024-07-01,386,12135600.00,Observed in E01 source export
+2024-08-01,386,12161800.00,Observed in E01 source export
+2024-09-01,370,11634200.00,Observed in E01 source export
+2024-10-01,386,12075700.00,Observed in E01 source export
+2024-11-01,370,11634800.00,Observed in E01 source export
+2024-12-01,386,12172400.00,Observed in E01 source export
+2025-01-01,389,12260700.00,Observed in E01 source export
+2025-02-01,357,11190300.00,Observed in E01 source export
+2025-03-01,386,12172400.00,Observed in E01 source export
+2025-04-01,370,11634800.00,Observed in E01 source export
+2025-05-01,386,12167500.00,Observed in E01 source export
+2025-06-01,373,11727700.00,Observed in E01 source export
+2025-07-01,390,12269500.00,Observed in E01 source export
+2025-08-01,390,12269500.00,Observed in E01 source export
+2025-09-01,381,12018000.00,Observed in E01 source export
+2025-10-01,386,12075700.00,Observed in E01 source export
+2025-11-01,370,11635300.00,Observed in E01 source export
+2025-12-01,386,12172100.00,Observed in E01 source export
+2026-01-01,386,13121900.00,Observed in E01 source export
+2026-02-01,353,12334700.00,Observed in E01 source export
+2026-03-01,390,13642500.00,Observed in E01 source export
+2026-04-01,373,13039800.00,Observed in E01 source export
+2026-05-01,386,13529100.00,Observed in E01 source export
+2026-06-01,370,12937300.00,Observed in E01 source export
+2026-07-01,386,13493300.00,Observed in E01 source export
+2026-08-01,386,13522200.00,Observed in E01 source export
+2026-09-01,50,1699400.00,Observed in E01 source export
+2026-10-01,0,0.00,Filled zero from V02 calendar; not present in E01 export
