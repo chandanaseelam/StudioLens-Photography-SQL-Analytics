@@ -1,0 +1,30 @@
+digraph StudioLensConceptual {
+graph [label="StudioLens | Conceptual ERD (business relationships)",labelloc=t,fontsize=20,fontname="Helvetica",rankdir=LR,bgcolor="white",nodesep="0.65",ranksep="1.1",splines=polyline];
+node [shape=box,style="rounded,filled",fillcolor="#E6F2F3",color="#0F6670",fontname="Helvetica",fontsize=13,margin="0.2,0.12"];
+edge [color="#667D89",fontname="Helvetica",fontsize=9,arrowsize=0.6];
+customers [label="Customers",fillcolor="#E6F2F3"];
+packages [label="Packages",fillcolor="#E6F2F3"];
+bookings [label="Bookings",fillcolor="#B1DEE1"];
+photographers [label="Photographers",fillcolor="#E6F2F3"];
+booking_assignments [label="Assignments",fillcolor="#E6F2F3"];
+invoices [label="Invoices",fillcolor="#E6F2F3"];
+payments [label="Payments",fillcolor="#E6F2F3"];
+expenses [label="Expenses",fillcolor="#E6F2F3"];
+package_price_history [label="Price history",fillcolor="#E6F2F3"];
+cancellations [label="Cancellations",fillcolor="#E6F2F3"];
+reviews [label="Reviews",fillcolor="#E6F2F3"];
+photographer_availability [label="Availability",fillcolor="#E6F2F3"];
+bookings -> customers [label="belongs to"];
+bookings -> packages [label="uses"];
+booking_assignments -> bookings [label="assigned to"];
+booking_assignments -> photographers [label="staffed by"];
+invoices -> bookings [label="bills"];
+payments -> invoices [label="settles"];
+payments -> payments [label="refund refers to"];
+expenses -> bookings [label="may relate to"];
+package_price_history -> packages [label="prices"];
+cancellations -> bookings [label="cancels"];
+reviews -> bookings [label="reviews"];
+reviews -> photographers [label="may refer to"];
+photographer_availability -> photographers [label="availability for"];
+}

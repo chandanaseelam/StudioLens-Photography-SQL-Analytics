@@ -1,0 +1,6 @@
+customer_id,customer_name,email,city,customer_type,signup_date
+DEMO001,Aarav Sharma,aarav.demo001@example.com,Hyderabad,Individual,2024-01-12
+DEMO002,Priya Reddy,priya.demo002@example.com,Chennai,Individual,2024-02-09
+DEMO003,Rahul Verma,rahul.demo003@example.com,Bengaluru,Individual,2024-02-21
+DEMO004,Meera Rao,meera.demo004@example.com,Mumbai,Business,2024-03-18
+DEMO005,Kavya Nair,kavya.demo005@example.com,Pune,Individual,2024-04-01
